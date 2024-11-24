@@ -1,0 +1,21 @@
+# Profile info for ZSH.
+
+## Export variables
+# Add custom user-programs
+#export PATH="${PATH}:$HOME/docs/programs/bash/"
+
+# Default programs
+export EDITOR=vim
+export BROWSER=firefox
+export TERMINAL=urxvt
+
+# Other program variables
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export LESSHISTFILE="-"
+#export ZDOTDIR="$HOME/.config/zsh"
+#export VIMINIT="source $HOME/.config/vim/.vimrc"
+GPG_TTY=$(tty)
+export GPG_TTY
+export $(dbus-launch)

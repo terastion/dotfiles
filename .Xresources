@@ -1,0 +1,51 @@
+URxvt.scrollBar: false
+URxvt.font: xft:hack:style=Regular:size=14,xft:Dejavu Sans:size=14
+URxvt.boldfont: xft:hack:style=Bold:size=14,xft:Dejavu Sans:style=Bold:size=14
+URxvt.italicFont: ttf:hack:style=Italic:size=14,xft:Dejavu Sans:style=Italic:size=14
+URxvt.boldItalicFont: ttf:hack:style=BoldItalic:size=14,xft:Dejavu Sans:style=BoldItalic:size=14
+!URxvt*depth: 32
+URxvt.letterSpace:1.0
+URxvt.perl-ext-common: resize-font
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! special
+*.foreground:   #fdfdfd
+! *.background:   #1d1f28
+! *.background: rgba:1f00/1e00/3300/be00
+*.background: rgba:1f00/1e00/3300/ffff
+*.cursorColor:  #fdfdfd
+
+! black
+*.color0:       #282a36
+*.color8:       #282a36
+
+! red
+*.color1:       #fc1469
+*.color9:       #fc1469
+
+! green
+*.color2:       #00f0b5
+*.color10:      #00f0b5
+
+! yellow
+*.color3:       #ffeb6d
+*.color11:      #ffeb6d
+
+! blue
+! *.color4:       #8676ff
+*.color4:       #7289da
+! *.color12:      #8676ff
+*.color12:      #7289da
+
+! magenta
+*.color5:       #fc7bfc
+*.color13:      #fc7bfc
+
+! cyan
+*.color6:       #57c7ff
+*.color14:      #57c7ff
+
+! white
+*.color7:       #eff0eb
+*.color15:      #eff0eb
