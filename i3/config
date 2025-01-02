@@ -219,11 +219,12 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym Control+Shift+Mod1+Mod4+q exec sudo shutdown -h now
 bindsym Control+Shift+Mod1+Mod4+d exec killall -15 Discord
-bindsym Control+Shift+Mod1+Mod4+l exec pactl set-sink-mute @DEFAULT_SINK@ 1; exec killall -15 Discord; exec i3lock -c 0d0d0d
+bindsym Control+Shift+Mod1+Mod4+l exec pactl set-sink-mute @DEFAULT_SINK@ 1; exec killall -15 Discord; exec killall -15 telegram-desktop; exec i3lock -c 0d0d0d
+bindsym Control+$mod+p exec polybar-msg cmd restart > log.txt
 
 # Other programs
 exec --no-startup-id picom
-exec DISPLAY=:0 redshift -l
+exec DISPLAY=:0 redshift -l COORDSHERE
 #exec xrdb $HOME/.Xresources
 #exec xbindkeys -f $HOME/.xbindkeysrc
 exec --no-startup-id udiskie

@@ -10,6 +10,7 @@ set expandtab
 set smartindent
 set smarttab
 autocmd TextChanged,TextChangedI *.tex silent write
+let g:netrw_dirhistmax = 0
 
 " Plugin Stuff
 call plug#begin('~/.vim/plugged')
@@ -36,10 +37,10 @@ let g:vimtex_syntax_conceal = {
 let g:vimtex_view_forward_search_on_start=0
 
 
-Plug 'sirver/ultisnips'
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+"Plug 'sirver/ultisnips'
+"let g:UltiSnipsExpandTrigger = '<tab>'
+"let g:UltiSnipsJumpForwardTrigger = '<tab>'
+"let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 Plug 'dense-analysis/ale'
 let g:ale_fixers = {

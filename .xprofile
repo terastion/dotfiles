@@ -19,3 +19,5 @@ export LESSHISTFILE="-"
 GPG_TTY=$(tty)
 export GPG_TTY
 export $(dbus-launch)
+
+export QT_SCALE_FACTOR=1.5
